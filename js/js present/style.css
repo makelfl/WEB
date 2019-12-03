@@ -1,1 +1,27 @@
 
+
+.reset {
+  
+  width: 250px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  border-radius: 10px;
+}
+
+.reset:hover{
+  background-color:darkorange;
+}
+
+.showMe {
+  background-image: url('lo.png');
+  width: 250px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  border-radius: 10px;
+}
+
+.showMe:hover {
+  background-color: lime;
+}
