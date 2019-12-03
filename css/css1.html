@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Заголовок</title>
+<style type="text/css">
+table{
+border: 3px red dashed;
+border-collapse: collapse;
+width: 30%;
+margin: 10px;
+}
+th, td{
+border: 2px solid black;
+height: 50px;
+text-align: center;
+}
+th, td:hover{
+background: Magenta;
+color: red;
+font-weight: bold;
+font-size: 20px;
+}
+form
+{
+margin: 15px;
+padding: 15px;
+border: 1px solid black;
+background: #87CEEB;
+}
+
+input.green
+{
+font-weight: 800;
+background:#FFFAF0;
+border:1px dashed;
+padding:10px;
+}
+
+option
+{
+background:red;
+}
+
+option.zshirr
+{
+font-weight: 800;
+}
+
+#h4_new{
+color: green;
+font-style: italic;
+}
+
+a{
+background: MediumAquamarine;
+text-decoration: none;
+margin: 20px;
+border: 2px dashed black;
+padding: 15px;
+}
+a:hover{
+background: Aquamarine;
+color: red;
+font-style: italic;
+font-size: 23px;
+}
+
+</style>
+</head>
+
+
+<body>
+<h4>1. Оформить таблицу с помощью стилей</h4>
+Наведите на таблицу<br>
+<table>
+<tr>
+<td colspan="2" rowspan="2">1</td>
+<td colspan="2">2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td rowspan="2">5</td>
+<td colspan="3">6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+</table>
+
+
+<h4>2. Оформить форму с помощью стилей</h4>
+<form>
+Имя: <input type="text" class="green"> <br><br>
+Пароль: <input type="password"> <br><br>
+<select>
+<option class="zshirr">Россия</option>
+<option>США</option>
+<option>Испания</option>
+</select><br><br>
+Являюсь резидентом этой страны: <input type="checkbox"><br><br>
+<input type="submit" value="Отправить">
+</form>
+
+<h4>3. Изменить оформление стандартных тэгов (например, заголовки,
+параграфы и пр.) в стилях и применить в документе</h4>
+Стандартный стиль тега h4:<h4>Университет ИТМО</h4>
+Новый стиль тега h4:<h4 id="h4_new">Университет ИТМО</h4>
+<h4>4. Оформление ссылок (сделать фон для ссылки, убрать подчеркивание
+ссылки, сделать рамку ссылки с отступами внешними и внутренними,
+сделать рамку штриховую, изменять цвет, шрифт и начертание при
+наведении)</h4>
+
+<a href="https://www.youtube.com">YouTube</a><br><br><br>
+
+</body>
+</html>
