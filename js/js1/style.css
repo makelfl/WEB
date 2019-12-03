@@ -1,1 +1,51 @@
+.reg {
+  background-image: url('like.png');
+  width: 250px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  border-radius: 10px;
+}
 
+.reg:hover {
+  background-color:red;
+}
+
+.whois {
+  background-image: url('my.png');
+  width: 250px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  border-radius: 10px;
+}
+
+.whois:hover {
+  background-color:deepskyblue;
+}
+
+.reset {
+  background-image: url('close.png');
+  width: 250px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  border-radius: 10px;
+}
+
+.reset:hover{
+  background-color:darkorange;
+}
+
+.showMe {
+  background-image: url('lo.png');
+  width: 250px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  border-radius: 10px;
+}
+
+.showMe:hover {
+  background-color: lime;
+}
