@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Заголовок страницы</TITLE>
+
+<META CHARSET=“UTF-8">
+
+</HEAD>
+<BODY>
+<FORM ACTION="/servlet" METHOD="GET" NAME="_TestForm">
+
+<TABLE BORDER="0" BORDER="70%" CELLPADDING="10" CELLSPACING="10">
+<TR> 
+<TH COLSPAN="2">Введите ваше имя и фамилию:
+<INPUT TYPE="text"  SIZE="25" ><br></TH>
+</TR>
+<TR>
+<TH>
+Выберите ваш пол: <BR>
+<i>
+<INPUT TYPE="radio" NAME="sex" VALUE="Male" CHECKED> Мужской<BR>
+<INPUT TYPE="radio" NAME="sex" VALUE="Female"> Женский<BR>  </TH></i>
+<TH ALIGN="left" >  Выберите вашу страну:<br><br>
+<SELECT   NAME="Country">
+ <OPTION VALUE="RU "> Russia   </OPTION>
+ <OPTION VALUE="US" > USA      </OPTION>
+ <OPTION VALUE="GE" > Germany</OPTION>
+ <OPTION VALUE="UK" > Ukraine </OPTION>
+ <OPTION VALUE="PO" > Poland   </OPTION> </TH>
+</TR>
+<TR>
+<TH COLSPAN="2" ALIGN="left">
+Придумайте пароль и логин:<BR><BR>Логин:  <INPUT TYPE="text"  SIZE="20" ><BR><BR>
+ Пароль:  <INPUT TYPE="password" WIDTH="10" NAME="passwd"><BR><BR>
+
+<INPUT TYPE="submit" VALUE="Зарегистрироваться"><BR>
+</TH>
+</TR>
+</TABLE>
+
+
+
+
+</FORM>
+</BODY>
+</HTML>
