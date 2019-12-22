@@ -110,14 +110,7 @@ var z = x+'px'+' '+y;
 ttt.parentNode.parentNode.childNodes[7].style.border = z;
 }
 
-// function changeBtnInput(ttt){
-// var x = ttt.value +'px';
-// ttt.parentNode.childNodes[5].value = ttt.parentNode.childNodes[5].value+ ' ' +x;
-// }
-// function changeBtnSelect(ttt){
-// var x = ttt.value;
-// ttt.parentNode.childNodes[5].value = ttt.parentNode.childNodes[5].value+ ' и рамка ' +x;
-// }
+
 
 function addHead(){
 var form = document.createElement('form');
